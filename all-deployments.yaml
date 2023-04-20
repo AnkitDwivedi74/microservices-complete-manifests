@@ -443,6 +443,7 @@ metadata:
   name: frontend
   namespace: microservices-tekton
 spec:
+  type: LoadBalancer
   selector:
     app: frontend
   ports:
